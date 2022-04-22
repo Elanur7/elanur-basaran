@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs')
 
 const app = express();
-const directory = path.join("../src");
+const directory = path.join("../web-server/src");
 app.use(express.static(directory));
 
 const port = process.env.PORT || 3000;
