@@ -29,7 +29,7 @@ app.get('test_geocode',(req,res)=>{
 app.get('test_weather',(req,res)=>{
     res.send([
         {
-            weather:weather
+            weather : weather
         }
     ])
 })
